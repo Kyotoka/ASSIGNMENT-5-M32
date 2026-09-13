@@ -51,21 +51,23 @@ export default function App() {
         <Navbar />
         <ToastContainer position="bottom-right" autoClose={2000} />
         
-        {/* Exact 72.5px side cushioning matching Figma */}
-        <main className="w-full px-[72.5px] py-10 space-y-16">
+        <main className="w-full px-[72.5px] py-10 space-y-8">
           <HeroBanner />
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+          {/* Section Header */}
+          <div>
+            <h2 className="text-3xl font-extrabold text-slate-900">
+              Explore the <span className="text-pink-500">Technologies</span>
+            </h2>
+            <p className="text-slate-500 text-sm mt-1">
+              Pick one technology per category to build your ideal stack.
+            </p>
+          </div>
+
+          {/* Grid Container where Cards and Sidebar start at the exact same horizontal baseline */}
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
+            {/* Tech Cards (3 Columns) */}
             <div className="lg:col-span-3">
-              <div className="mb-6">
-                <h2 className="text-3xl font-extrabold text-slate-900">
-                  Explore the <span className="text-pink-500">Technologies</span>
-                </h2>
-                <p className="text-slate-500 text-sm mt-1">
-                  Pick one technology per category to build your ideal stack.
-                </p>
-              </div>
-              
               {isLoading ? (
                 <div className="flex justify-center items-center py-20">
                   <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-violet-600"></div>
@@ -84,6 +86,7 @@ export default function App() {
               )}
             </div>
 
+            {/* Sidebar (1 Column) - Aligned with First Tech Card */}
             <div className="lg:col-span-1">
               <StackSidebar
                 selectedStack={selectedStack}
