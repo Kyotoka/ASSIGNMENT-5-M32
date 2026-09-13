@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function StackSidebar({ selectedStack, onRemoveItem, onClearAll }) {
   return (
