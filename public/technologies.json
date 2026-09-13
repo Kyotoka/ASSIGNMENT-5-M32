@@ -7,27 +7,41 @@
     "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "badgeColor": "text-sky-500 bg-sky-50"
   },
   {
     "id": "vue",
     "name": "Vue.js",
     "category": "Frontend",
-    "description": "An approachable, performant and versatile framework for building web user interfaces.",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
     "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Versatile"
+    "badge": "Versatile",
+    "badgeColor": "text-emerald-600 bg-emerald-50"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "Frontend",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Svelte.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast",
+    "badgeColor": "text-orange-500 bg-orange-50"
   },
   {
     "id": "nextjs",
     "name": "Next.js",
     "category": "Frontend",
-    "description": "The React framework for full-stack web applications with dynamic rendering.",
+    "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
     "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "",
+    "badgeColor": ""
   },
   {
     "id": "nodejs",
@@ -37,7 +51,8 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Standard"
+    "badge": "Standard",
+    "badgeColor": "text-emerald-600 bg-emerald-50"
   },
   {
     "id": "postgresql",
@@ -47,26 +62,73 @@
     "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Top SQL"
+    "badge": "Top SQL",
+    "badgeColor": "text-sky-500 bg-sky-50"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "icon": "https://icon.icepanel.io/Technology/png-64/Redis.png",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Cache",
+    "badgeColor": "text-rose-500 bg-rose-50"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Ubiquitous",
+    "badgeColor": "text-amber-600 bg-amber-50"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Essential",
+    "badgeColor": "text-sky-500 bg-sky-50"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Language",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Java.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Robust",
+    "badgeColor": "text-sky-500 bg-sky-50"
   },
   {
     "id": "tailwindcss",
     "name": "Tailwind CSS",
     "category": "Styling",
-    "description": "A utility-first CSS framework packed with classes to build custom user interfaces.",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
     "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Modern"
+    "badge": "Modern",
+    "badgeColor": "text-sky-500 bg-sky-50"
   },
   {
     "id": "docker",
     "name": "Docker",
     "category": "DevOps",
-    "description": "A platform designed to build, share, and run containerized applications easily.",
+    "description": "A platform designed to build, share, and run containerized applications reliably.",
     "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Containers"
+    "badge": "Containers",
+    "badgeColor": "text-sky-500 bg-sky-50"
   }
 ]
