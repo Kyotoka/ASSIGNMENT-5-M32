@@ -70,7 +70,7 @@
     "name": "Redis",
     "category": "Database",
     "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
-    "icon": "https://icon.icepanel.io/Technology/png-64/Redis.png",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Cache",
